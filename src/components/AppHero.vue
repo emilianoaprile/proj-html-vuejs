@@ -1,7 +1,46 @@
 <template>
-    <div>
-        Hero
+    <div class="page-hero">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="hero-title">Unlock Your Online Growth Potential</h1>
+                    <p class="hero-subtitle">
+                        Online marketing to secure customers retention, leads and sales. We focus on the bigger picture.
+                    </p>
+                    <span class="button btn-white">
+                        <a href="#">
+                            Our Services
+                            <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                        </a>
+                    </span>
+
+
+                </div>
+                <div class="col-6"></div>
+            </div>
+
+        </div>
     </div>
 </template>
 
-<style></style>
+<style scoped>
+.page-hero {
+    min-height: 690px;
+    width: 100%;
+    background-image: url(public/img/hero-img.jpg);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.hero-title {
+    font-size: 68px;
+    color: white;
+}
+
+.hero-subtitle {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 200px;
+}
+</style>

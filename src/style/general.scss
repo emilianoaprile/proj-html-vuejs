@@ -13,7 +13,6 @@ a {
     text-decoration: none;
     color: unset;
     display: block;
-    padding: 5px 20px;
 }
 
 ul,
@@ -72,7 +71,18 @@ img {
     line-height: 45px;
 }
 
+.button a {
+    padding: 5px 40px;
+}
+
 .btn-light-orange {
     background-color: rgb(255, 231, 218);
     color: rgb(247, 96, 18);
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    display: block;
+    width: 200px;
 }
