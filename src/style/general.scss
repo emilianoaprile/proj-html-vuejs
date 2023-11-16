@@ -58,8 +58,13 @@ img {
     justify-content: space-between;
 }
 
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
+    // border: 1px solid black;
 }
 
 .col-4 {
@@ -73,6 +78,7 @@ img {
 .button {
     border-radius: 10px;
     line-height: 45px;
+    font-size: 17px;
 }
 
 .button a {
@@ -94,5 +100,4 @@ img {
 .btn-orange {
     background-color: rgb(247, 96, 18);
     color: white;
-    width: 100%;
 }

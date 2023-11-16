@@ -1,9 +1,9 @@
 <script>
-import PageCard from './PageCard.vue';
+import FormCard from './FormCard.vue';
 
 export default {
     components: {
-        PageCard,
+        FormCard,
     },
     data() {
         return {
@@ -35,7 +35,7 @@ export default {
 
                 </div>
                 <div class="col-6">
-                    <PageCard />
+                    <FormCard />
                 </div>
             </div>
 
@@ -47,14 +47,29 @@ export default {
 .page-hero {
     min-height: 100%;
     width: 100%;
-    background-image: url(public/img/hero-img.jpg);
+    background-image: url(public/img/marketing-intro.jpg);
     background-size: cover;
     padding-top: 100px;
+    position: relative;
+    z-index: -9;
+}
+
+.page-hero::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.5;
+    background: #000;
+    z-index: -1;
 }
 
 .hero-title {
     font-size: 60px;
     color: white;
+
 }
 
 .hero-subtitle {
@@ -62,5 +77,7 @@ export default {
     margin-top: 40px;
     margin-bottom: 40px;
     padding-right: 200px;
+    font-size: 17px;
+
 }
 </style>
