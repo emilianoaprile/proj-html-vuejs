@@ -1,6 +1,24 @@
+<script>
+import PageCard from './PageCard.vue';
+
+export default {
+    components: {
+        PageCard,
+    },
+    data() {
+        return {
+
+        }
+    },
+    methods: {
+
+    }
+}
+</script>
+
 <template>
     <div class="page-hero">
-        <div class="container-lg">
+        <div class="container">
             <div class="row">
                 <div class="col-6">
                     <h1 class="hero-title">Unlock Your Online Growth Potential</h1>
@@ -16,7 +34,9 @@
 
 
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <PageCard />
+                </div>
             </div>
 
         </div>
@@ -25,7 +45,7 @@
 
 <style scoped>
 .page-hero {
-    min-height: 690px;
+    min-height: 100%;
     width: 100%;
     background-image: url(public/img/hero-img.jpg);
     background-size: cover;
@@ -33,7 +53,7 @@
 }
 
 .hero-title {
-    font-size: 68px;
+    font-size: 60px;
     color: white;
 }
 

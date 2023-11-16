@@ -9,6 +9,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+input.button {
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: unset;
@@ -85,4 +89,10 @@ img {
     color: black;
     display: block;
     width: 200px;
+}
+
+.btn-orange {
+    background-color: rgb(247, 96, 18);
+    color: white;
+    width: 100%;
 }
