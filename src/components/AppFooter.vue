@@ -1,3 +1,104 @@
+<script>
+import FooterMenu from './FooterMenu.vue';
+
+export default {
+    components: {
+        FooterMenu
+    },
+
+    data() {
+        return {
+
+            footerMenuServices: {
+                title: 'Services',
+                links: [
+
+                    {
+                        text: 'Marketin Plan',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Sales Developement',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Digital Marketing',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Pricing',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Why Us',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Case Studies',
+                        href: '#'
+                    }
+                ]
+
+            },
+
+            FooterMenuResources: {
+                title: 'Resources',
+                links: [
+                    {
+                        text: 'Learning Center',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Video Tutorials',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Customers',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Blog',
+                        href: '#'
+                    },
+                ]
+            },
+
+            FooterMenuCompany: {
+                title: 'Company',
+                links: [
+                    {
+                        text: 'Who We Are',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Contact Us',
+                        href: '#'
+                    },
+
+                    {
+                        text: 'Careers',
+                        href: '#'
+                    },
+                ]
+            }
+
+        }
+
+    }
+}
+</script>
+
+
+
 <template>
     <footer class="footer-section">
         <div class="container-lg">
@@ -17,36 +118,9 @@
                     </div>
                 </div>
 
-                <div class="navigation-links">
-                    <h6 class="navigation-menu-title">Services</h6>
-                    <ul class="navigation-menu flex flex-column">
-                        <li class="navigation-menu-item">Marketing Plan</li>
-                        <li class="navigation-menu-item">Sales Developement</li>
-                        <li class="navigation-menu-item">Digital Marketing</li>
-                        <li class="navigation-menu-item">Pricing</li>
-                        <li class="navigation-menu-item">Why Us</li>
-                        <li class="navigation-menu-item">Case Studies</li>
-                    </ul>
-                </div>
-
-                <div class="navigation-links">
-                    <h6 class="navigation-menu-title">Resources</h6>
-                    <ul class="navigation-menu flex flex-column">
-                        <li class="navigation-menu-item">Learning Center</li>
-                        <li class="navigation-menu-item">Video Tutorials</li>
-                        <li class="navigation-menu-item">Customers</li>
-                        <li class="navigation-menu-item">Blog</li>
-                    </ul>
-                </div>
-
-                <div class="navigation-links">
-                    <h6 class="navigation-menu-title">Company</h6>
-                    <ul class="navigation-menu flex flex-column">
-                        <li class="navigation-menu-item">Who We Are</li>
-                        <li class="navigation-menu-item">Contact Us</li>
-                        <li class="navigation-menu-item">Careers</li>
-                    </ul>
-                </div>
+                <FooterMenu :title="footerMenuServices.title" :links="footerMenuServices.links" />
+                <FooterMenu :title="FooterMenuResources.title" :links="FooterMenuResources.links" />
+                <FooterMenu :title="FooterMenuCompany.title" :links="FooterMenuCompany.links" />
             </nav>
         </div>
     </footer>
