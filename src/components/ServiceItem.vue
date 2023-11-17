@@ -7,8 +7,8 @@ export default {
 </script>
 
 <template>
-    <div class="service-item" :class="{ 'flex-reverse': service.flexReverse }">
-        <div class="row">
+    <div class="service-item">
+        <div class="row" :class="{ 'flex-reverse': service.flexReverse }">
             <div class="col-6">
                 <figure class="img-wrapper">
                     <img :src="service.imgSrc">
