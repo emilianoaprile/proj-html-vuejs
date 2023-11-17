@@ -3,7 +3,7 @@
         <section class="brands flex flex-column">
 
             <div class="brand-list-header flex flex-column align-center">
-                <h2 class="brand-list-title">Some Brands We Work With</h2>
+                <h3 class="brand-list-title">Some Brands We Work With</h3>
                 <p class="brand-list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
@@ -40,7 +40,8 @@
 
 <style scoped>
 .brands {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 75px;
     gap: 50px;
 }
 

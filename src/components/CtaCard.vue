@@ -15,8 +15,10 @@
                     Drives Leads and Sales with Avada
                 </h5>
 
-                <p class="button btn-light-orange consultant-number"><a href="#"><font-awesome-icon
-                            icon="fa-solid fa-phone" /> (555) 802-1234</a>
+                <p class="button btn-light-orange consultant-number">
+                    <a href="#">
+                        <font-awesome-icon icon="fa-solid fa-phone" /> (555) 802-1234
+                    </a>
                 </p>
             </div>
         </div>

@@ -72,6 +72,8 @@
 .btn-card {
     width: 100%;
     margin: 0 auto;
+    border: unset;
+    cursor: pointer;
 }
 
 .card-form-disclaimer {

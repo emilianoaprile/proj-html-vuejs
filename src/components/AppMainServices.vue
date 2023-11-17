@@ -83,7 +83,7 @@
 
 <style scoped>
 .service {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .service-card {

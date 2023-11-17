@@ -5,7 +5,7 @@
             <div class="section-wrapper flex flex-column">
 
                 <div class="case-studies-header">
-                    <h2 class="case-studies-title">Trusted by Leading Organizations</h2>
+                    <h3 class="case-studies-title">Trusted by Leading Organizations</h3>
                 </div>
 
                 <div class="case-studies-cards flex">
@@ -57,7 +57,8 @@
 
 <style scoped>
 .case-studies-section {
-    margin-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .case-studies-header .case-studies-title {
