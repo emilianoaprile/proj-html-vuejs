@@ -1,30 +1,94 @@
+<script>
+export default {
+    data() {
+        return {
+            headerMenu: [
+                {
+                    imgSrc: '/img/avada-marketing-logo-2x-200x37.png',
+                    href: '#',
+                    icon: ''
+
+                },
+
+                {
+                    text: 'Home',
+                    href: '#',
+                    icon: 'fa-solid fa-chevron-down'
+                },
+
+                {
+                    text: 'Services',
+                    href: '#',
+                    icon: 'fa-solid fa-chevron-down'
+                },
+
+                {
+                    text: 'Why Us',
+                    href: '#',
+                    icon: ''
+                },
+
+                {
+                    text: 'Case studies',
+                    href: '#',
+                    icon: ''
+
+                },
+
+                {
+                    text: 'About',
+                    href: '#',
+                    icon: ''
+                },
+
+                {
+                    text: 'Blog',
+                    href: '#',
+                    icon: ''
+                },
+
+                {
+                    text: '(555) 802-1234',
+                    href: '#',
+                    icon: 'fa-solid fa-phone'
+
+                },
+
+                {
+                    text: 'Free Quote',
+                    href: '#',
+                    isButton: true
+                }
+            ],
+
+        }
+    }
+}
+</script>
+
+
+
 <template>
     <header class="page-header">
+
         <nav class="container-lg">
+
             <ul class="header-nav-menu flex flex-between align-center">
-                <li class="nav-menu-item"><a href="#"><img src="/img/avada-marketing-logo-2x-200x37.png" alt=""></a></li>
-                <li class="nav-menu-item">
-                    <a href="#">
-                        Home
-                        <font-awesome-icon icon="fa-solid fa-chevron-down" />
+
+                <li v-for="(menuItem, index) in headerMenu" :key="index" class="nav-menu-item"
+                    :class="{ 'button': menuItem.isButton, 'btn-light-orange': menuItem.isButton }">
+                    <a :href="menuItem.href">
+                        <img v-if="menuItem.imgSrc" :src="menuItem.imgSrc" alt="" />
+                        <span v-if="menuItem.text !== '(555) 802-1234'">{{ menuItem.text }}</span>
+                        <font-awesome-icon v-if="menuItem.icon" :icon="menuItem.icon" />
+                        <span v-if="menuItem.text === '(555) 802-1234'">{{ menuItem.text }}</span>
                     </a>
                 </li>
-                <li class="nav-menu-item">
-                    <a href="#">
-                        Services
-                        <font-awesome-icon icon="fa-solid fa-chevron-down" />
-                    </a>
-                </li>
-                <li class="nav-menu-item"><a href="#">Why us</a></li>
-                <li class="nav-menu-item"><a href="#">Case studies</a></li>
-                <li class="nav-menu-item"><a href="#">About</a></li>
-                <li class="nav-menu-item"><a href="#">Blog</a></li>
-                <li class="nav-menu-item"><a href="#"><font-awesome-icon icon="fa-solid fa-phone" /> (555) 802-1234</a></li>
-                <li class="button btn-light-orange">
-                    <a href="#">Free Quote</a>
-                </li>
+
             </ul>
+
         </nav>
+
     </header>
 </template>
 
@@ -32,10 +96,5 @@
 .page-header {
     padding-top: 35px;
     padding-bottom: 35px;
-}
-
-.nav-menu-item {
-    line-height: 45px;
-    font-size: 17px;
 }
 </style>
