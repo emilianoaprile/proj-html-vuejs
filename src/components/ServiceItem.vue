@@ -1,9 +1,12 @@
 <script>
 export default {
     props: {
-        service: Object
-    }
-};
+        service: {
+            type: Object,
+            required: true,
+        },
+    },
+}
 </script>
 
 <template>

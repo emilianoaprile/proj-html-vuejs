@@ -9,27 +9,27 @@
 
             <ul class="brand-list flex flex-between">
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/abstract.png" alt="">
+                    <img class="brand-img" src="/img/abstract.png" alt="">
                 </li>
 
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/cglobal.png" alt="">
+                    <img class="brand-img" src="/img/cglobal.png" alt="">
                 </li>
 
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/next.png" alt="">
+                    <img class="brand-img" src="/img/next.png" alt="">
                 </li>
 
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/hemisferio.png" alt="">
+                    <img class="brand-img" src="/img/hemisferio.png" alt="">
                 </li>
 
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/spaces.png" alt="">
+                    <img class="brand-img" src="/img/spaces.png" alt="">
                 </li>
 
                 <li class="brand-list-item">
-                    <img class="brand-img" src="/public/img/digitalbox.png" alt="">
+                    <img class="brand-img" src="/img/digitalbox.png" alt="">
                 </li>
             </ul>
 

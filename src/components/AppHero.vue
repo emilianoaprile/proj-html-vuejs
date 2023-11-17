@@ -47,7 +47,7 @@ export default {
 .page-hero {
     min-height: 100%;
     width: 100%;
-    background-image: url(public/img/marketing-intro.jpg);
+    background-image: url(/img/marketing-intro.jpg);
     background-size: cover;
     padding-top: 100px;
 }

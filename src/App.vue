@@ -23,21 +23,10 @@ export default {
 </script>
 
 <template>
-  <!-- Header -->
   <AppHeader />
-  <!--  -->
-
-  <!-- Hero -->
   <AppHero />
-  <!--  -->
-
-  <!-- Main -->
   <AppMain />
-  <!--  -->
-
-  <!-- Footer -->
   <AppFooter />
-  <!--  -->
 </template>
 
 <style lang="scss">

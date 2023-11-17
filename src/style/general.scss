@@ -64,7 +64,6 @@ img {
 
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
-    // border: 1px solid black;
 }
 
 .col-4 {
@@ -74,8 +73,6 @@ img {
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
-    border: 1px solid red;
-    height: 100px;
 }
 
 .button {

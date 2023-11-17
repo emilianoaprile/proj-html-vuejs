@@ -3,7 +3,7 @@ import FooterMenu from './FooterMenu.vue';
 
 export default {
     components: {
-        FooterMenu
+        FooterMenu,
     },
 
     data() {
