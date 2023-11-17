@@ -57,8 +57,9 @@
 
 <style scoped>
 .case-studies-section {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #f4f4f6;
 }
 
 .case-studies-header .case-studies-title {

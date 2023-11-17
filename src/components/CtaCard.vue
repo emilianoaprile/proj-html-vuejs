@@ -29,6 +29,7 @@
 <style scoped>
 .cta-card {
     margin-top: 100px;
+    margin-bottom: 100px;
     box-shadow: 1px 20px 30px -9px rgba(0, 0, 0, 0.42);
     border-radius: 15px;
     padding: 15px 50px;

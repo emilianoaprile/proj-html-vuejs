@@ -130,7 +130,6 @@ export default {
 .footer-section {
     padding-top: 120px;
     padding-bottom: 100px;
-    background-color: #f4f4f6;
 }
 
 .social-links {
