@@ -27,7 +27,7 @@
     margin: 0 auto;
     padding: 30px;
     margin-bottom: -50px;
-    box-shadow: 1px 20px 30px -9px rgba(0, 0, 0, 0.84);
+    box-shadow: 1px 20px 30px -9px rgba(0, 0, 0, 0.42);
 }
 
 .consultant-profile-img {

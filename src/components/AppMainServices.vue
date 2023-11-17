@@ -105,5 +105,6 @@
 .card-text {
     font-size: 17px;
     margin-bottom: 28px;
+    line-height: 30px;
 }
 </style>
