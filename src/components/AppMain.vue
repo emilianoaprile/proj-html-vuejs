@@ -3,7 +3,7 @@
 import AppMainServices from './AppMainServices.vue';
 import AppMainBrandList from './AppMainBrandList.vue';
 import CtaCard from './CtaCard.vue';
-import TrustedSection from './TrustedSection.vue';
+import CaseStudies from './CaseStudies.vue';
 
 
 export default {
@@ -11,7 +11,7 @@ export default {
         AppMainServices,
         AppMainBrandList,
         CtaCard,
-        TrustedSection,
+        CaseStudies,
     },
     data() {
         return {
@@ -29,7 +29,7 @@ export default {
     <AppMainServices />
     <AppMainBrandList />
     <CtaCard />
-    <TrustedSection />
+    <CaseStudies />
 </template>
 
 <style scoped></style>
