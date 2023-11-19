@@ -55,7 +55,7 @@
     </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .case-studies-section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -70,37 +70,37 @@
 
 .case-studies-cards {
     gap: 50px;
+
+    .case-study-card {
+        width: 100%;
+
+        .card-text {
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .card-title {
+            font-size: 44px;
+            margin-bottom: 10px;
+
+        }
+
+        .card-subtitle {
+            font-size: 17px;
+        }
+    }
 }
 
 .button {
     width: max-content;
     align-self: center;
     margin-top: 80px;
-}
-
-.card-text {
-    font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
-
-.case-study-card {
-    width: 100%;
-}
-
-.case-study-card img {
-    border-radius: 10px;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.card-title {
-    font-size: 44px;
-    margin-bottom: 10px;
-
-}
-
-.card-subtitle {
-    font-size: 17px;
 }
 </style>

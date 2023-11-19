@@ -26,7 +26,7 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .cta-card {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -41,20 +41,20 @@
 
 .consultant-profile {
     gap: 25px;
-}
 
-.consultant-job {
-    font-size: 13px;
-    font-weight: 300;
-}
+    .consultant-profile-img {
+        height: 71px;
+        width: 71px;
+        border-radius: 50%;
+    }
 
-.consultant-name {
-    font-size: 17px;
-}
+    .consultant-name {
+        font-size: 17px;
+    }
 
-.consultant-profile-img {
-    height: 71px;
-    width: 71px;
-    border-radius: 50%;
+    .consultant-job {
+        font-size: 13px;
+        font-weight: 300;
+    }
 }
 </style>

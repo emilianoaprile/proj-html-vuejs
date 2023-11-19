@@ -43,26 +43,26 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .page-hero {
     min-height: 100%;
     width: 100%;
     background-image: url(/img/marketing-intro.jpg);
     background-size: cover;
     padding-top: 100px;
-}
 
-.hero-title {
-    font-size: 60px;
-    color: white;
-}
+    .hero-title {
+        font-size: 60px;
+        color: white;
+    }
 
-.hero-subtitle {
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-right: 200px;
-    font-size: 17px;
-    line-height: 30px;
+    .hero-subtitle {
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-right: 200px;
+        font-size: 17px;
+        line-height: 30px;
+    }
 }
 </style>

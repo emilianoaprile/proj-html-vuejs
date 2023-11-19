@@ -38,7 +38,7 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .brands {
     padding-top: 100px;
     padding-bottom: 75px;
@@ -47,17 +47,20 @@
 
 .brand-list-header {
     gap: 20px;
+
+    .brand-list-title {
+        font-size: 44px;
+    }
+
+    .brand-list-text {
+        font-size: 17px;
+    }
+
 }
 
-.brand-list-title {
-    font-size: 44px;
-}
+
 
 .brand-img {
     width: 140px;
-}
-
-.brand-list-text {
-    font-size: 17px;
 }
 </style>

@@ -25,6 +25,10 @@ export default {
                 <span style="padding: 0 10px;" v-if="menuItem.text === '(555) 802-1234'">{{ menuItem.text }}</span>
             </a>
         </li>
+        <!-- 
+        <li :class="{ 'button': menuItem.isButton, 'btn-light-orange': menuItem.isButton }">
+            {{ menuItem.text }}
+        </li> -->
 
     </ul>
 </template>

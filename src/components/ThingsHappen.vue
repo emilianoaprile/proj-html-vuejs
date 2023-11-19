@@ -53,7 +53,7 @@ export default {
     </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .proof-section {
     background-color: black;
     padding: 100px 0;
@@ -67,17 +67,35 @@ export default {
 .citation {
     color: white;
     padding-right: 130px;
-}
 
-.review-title {
-    font-size: 60px;
-    margin-bottom: 30px;
-}
+    .review-title {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
 
-.review-subtitle {
-    font-size: 22px;
-    opacity: 0.8;
-    line-height: 30px;
+    .review-subtitle {
+        font-size: 22px;
+        opacity: 0.8;
+        line-height: 30px;
+    }
+
+    .ceo-cite {
+        font-size: 17px;
+        margin-bottom: 30px;
+        opacity: 0.8;
+    }
+
+    .testimonial {
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+    .testimonial-rule {
+        font-size: 13px;
+        opacity: 0.8;
+    }
 }
 
 .review::after {
@@ -87,23 +105,5 @@ export default {
     width: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.ceo-cite {
-    font-size: 17px;
-    margin-bottom: 30px;
-    opacity: 0.8;
-}
-
-.testimonial {
-    font-weight: 600;
-    font-size: 17px;
-    margin-bottom: 10px;
-    opacity: 0.8;
-}
-
-.testimonial-rule {
-    font-size: 13px;
-    opacity: 0.8;
 }
 </style>

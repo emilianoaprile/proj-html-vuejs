@@ -33,30 +33,30 @@ export default {
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
+.service-item {
+    padding-top: 100px;
+}
+
 .service-card {
     width: 70%;
     margin: 0 auto;
     padding: 100px 0;
-}
 
-.button {
-    width: max-content;
-}
+    .card-title {
+        font-size: 44px;
+        margin-bottom: 28px;
+        margin-top: 28px;
+    }
 
-.card-title {
-    font-size: 44px;
-    margin-bottom: 28px;
-    margin-top: 28px;
-}
+    .card-text {
+        font-size: 17px;
+        margin-bottom: 28px;
+        line-height: 30px;
+    }
 
-.card-text {
-    font-size: 17px;
-    margin-bottom: 28px;
-    line-height: 30px;
-}
-
-.service-item {
-    padding-top: 100px;
+    .button {
+        width: max-content;
+    }
 }
 </style>

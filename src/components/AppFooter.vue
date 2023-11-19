@@ -126,41 +126,28 @@ export default {
     </footer>
 </template>
 
-<style>
+<style lang="scss">
 .footer-section {
     padding-top: 120px;
     padding-bottom: 100px;
 }
 
-.social-links {
-    flex-basis: 40%;
-    gap: 35px;
-    padding-right: 40px;
-}
+.footer-menu {
 
-.social-links-title {
-    font-size: 30px;
-}
+    .social-links {
+        flex-basis: 40%;
+        gap: 35px;
+        padding-right: 40px;
+    }
 
-.social-brands-icons {
-    gap: 30px;
-    font-size: 30px;
-}
+    .social-links-title {
+        font-size: 30px;
+    }
 
-.navigation-menu-title {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
+    .social-brands-icons {
+        gap: 30px;
+        font-size: 30px;
+    }
 
-.navigation-menu {
-    gap: 25px;
-}
-
-.navigation-links {
-    padding-right: 100px;
-}
-
-.navigation-menu-item {
-    font-size: 17px;
 }
 </style>

@@ -15,3 +15,22 @@ export default {
         </ul>
     </div>
 </template>
+
+<style scoped lang="scss">
+.navigation-links {
+    padding-right: 100px;
+
+    .navigation-menu-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .navigation-menu {
+        gap: 25px;
+    }
+
+    .navigation-menu-item {
+        font-size: 17px;
+    }
+}
+</style>
